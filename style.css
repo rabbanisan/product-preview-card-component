@@ -1,0 +1,187 @@
+/* warna */
+:root {
+	--cream: #f3eae3;
+	--green-leaf: #3d8168;
+	--white: hsl(0, 0%, 100%);
+}
+
+html {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+/* Untuk Mobile */
+@media only screen and (max-width: 375px) {
+	body {
+		width: 375px;
+	}
+
+	.container {
+		padding: 8% 4%;
+		background-color: #f3eae3;
+	}
+
+	.card {
+		background-color: white;
+		border-radius: 10px;
+	}
+
+	.content {
+		padding: 0 6% 6% 6%;
+	}
+
+	.product {
+		width: 100%;
+		border-radius: 10px 10px 0 0;
+	}
+
+	.price {
+		display: flex;
+		align-items: center;
+	}
+
+	.perfume {
+		margin-bottom: 3%;
+		color: #595959;
+		letter-spacing: 5px;
+		font-family: "Montserrat", sans-serif;
+		font-size: 14px;
+	}
+
+	.gabrielle {
+		margin-top: 0;
+		font-family: "Fraunces", serif;
+	}
+
+	.floral {
+		margin: 0;
+		color: #595959;
+		font-family: "Montserrat", sans-serif;
+		font-size: 14px;
+	}
+
+	.price h1 {
+		color: #3d8168;
+		font-family: "Fraunces", serif;
+	}
+
+	.price p {
+		margin-left: 6%;
+		color: #595959;
+		font-family: "Montserrat", sans-serif;
+		text-decoration: line-through;
+	}
+
+	button {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		background-color: #3d8168;
+		color: white;
+		border-radius: 10px;
+		border: none;
+		font-family: "Montserrat", sans-serif;
+		font-weight: 600;
+	}
+
+	.cart {
+		width: 15px;
+		height: 16px;
+	}
+
+	button p {
+		margin-left: 5%;
+	}
+}
+
+/* Untuk Dekstop */
+@media only screen and (max-width: 1440px) {
+	body {
+		width: 1440px;
+	}
+
+	.container {
+		padding: 10% 30%;
+		background-color: #f3eae3;
+	}
+
+	.card {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		background-color: white;
+		border-radius: 10px;
+	}
+
+	.content {
+		width: 50%;
+		padding: 0 6% 6% 6%;
+	}
+
+	.product {
+		width: 100%;
+		border-radius: 10px 10px 0 0;
+	}
+
+	.price {
+		display: flex;
+		align-items: center;
+	}
+
+	.perfume {
+		margin-bottom: 3%;
+		color: #595959;
+		letter-spacing: 5px;
+		font-family: "Montserrat", sans-serif;
+		font-size: 14px;
+	}
+
+	.gabrielle {
+		margin-top: 0;
+		font-family: "Fraunces", serif;
+	}
+
+	.floral {
+		margin: 0;
+		color: #595959;
+		font-family: "Montserrat", sans-serif;
+		font-size: 14px;
+	}
+
+	.price h1 {
+		color: #3d8168;
+		font-family: "Fraunces", serif;
+	}
+
+	.price p {
+		margin-left: 6%;
+		color: #595959;
+		font-family: "Montserrat", sans-serif;
+		text-decoration: line-through;
+	}
+
+	button {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		background-color: #3d8168;
+		color: white;
+		border-radius: 10px;
+		border: none;
+		font-family: "Montserrat", sans-serif;
+		font-weight: 600;
+	}
+
+	.cart {
+		width: 15px;
+		height: 16px;
+	}
+
+	button p {
+		margin-left: 5%;
+	}
+}
