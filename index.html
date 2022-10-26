@@ -2,8 +2,8 @@
 <html>
 	<head>
 		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width" />
-		<title>replit</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Produc Preview Card</title>
 		<link href="style.css" rel="stylesheet" type="text/css" />
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -16,11 +16,20 @@
 	<body>
 		<div class="container">
 			<div class="card">
-				<img
-					class="product"
-					src="/product-preview-card-component-main/images/image-product-desktop.jpg"
-					alt=""
-				/>
+				<div class="product">
+					<picture class="product">
+						<source
+							media="(min-width: 1280px)"
+							srcset="
+								/product-preview-card-component-main/images/image-product-desktop.jpg
+							"
+						/>
+						<img
+							class="product-img"
+							src="/product-preview-card-component-main/images/image-product-mobile.jpg"
+						/>
+					</picture>
+				</div>
 				<div class="content">
 					<p class="perfume">PERFUME</p>
 					<h1 class="gabrielle">Gabrielle Essence Eau De Parfum</h1>
