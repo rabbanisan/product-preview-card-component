@@ -10,6 +10,12 @@ html {
 	width: 100%;
 	display: flex;
 	justify-content: center;
+	align-items: center;
+	background-color: var(--cream);
+}
+
+p {
+	font-size: 14px;
 }
 
 .card {
@@ -27,7 +33,6 @@ html {
 	color: #595959;
 	letter-spacing: 5px;
 	font-family: "Montserrat", sans-serif;
-	font-size: 14px;
 }
 
 .gabrielle {
@@ -39,7 +44,6 @@ html {
 	margin: 0;
 	color: #595959;
 	font-family: "Montserrat", sans-serif;
-	font-size: 14px;
 }
 
 .price h1 {
@@ -63,17 +67,16 @@ button {
 	color: white;
 	border-radius: 10px;
 	border: none;
+	outline: none;
 	font-family: "Montserrat", sans-serif;
 	font-weight: 600;
+	padding: 15px 0;
 }
 
 .cart {
 	width: 15px;
 	height: 16px;
-}
-
-button p {
-	margin-left: 5%;
+	margin: 0 5%;
 }
 
 /* Untuk Mobile */
@@ -84,11 +87,10 @@ button p {
 
 	.container {
 		padding: 8% 4%;
-		background-color: #f3eae3;
 	}
 
 	.content {
-		padding: 0 6% 6% 6%;
+		padding: 0 7.5% 5% 7.5%;
 	}
 
 	.product-img {
@@ -105,7 +107,6 @@ button p {
 
 	.container {
 		padding: 10% 30%;
-		background-color: #f3eae3;
 	}
 
 	.card {
@@ -117,7 +118,7 @@ button p {
 	}
 
 	.content {
-		padding: 0 6% 6% 6%;
+		padding: 0 5% 0 5%;
 	}
 
 	.product {
